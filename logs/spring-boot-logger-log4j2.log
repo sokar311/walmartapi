@@ -1,0 +1,23 @@
+2020-11-14 19:25:58,677 INFO o.s.b.StartupInfoLogger [main] Starting ApiservicesApplication on leoncio-VirtualBox with PID 47161 (/home/leoncio/backup/apiservices/target/classes started by leoncio in /home/leoncio/backup/apiservices)
+2020-11-14 19:25:58,687 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+2020-11-14 19:25:58,696 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-11-14 19:26:00,249 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-11-14 19:26:00,278 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 19ms. Found 0 MongoDB repository interfaces.
+2020-11-14 19:26:00,934 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-11-14 19:26:00,945 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2020-11-14 19:26:00,947 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2020-11-14 19:26:00,949 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-14 19:26:01,001 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-11-14 19:26:01,003 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2138 ms
+2020-11-14 19:26:01,199 INFO c.m.d.l.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-11-14 19:26:01,259 INFO c.m.d.l.SLF4JLogger [cluster-ClusterId{value='5fb05979194e32567b90b074', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:26}] to localhost:27017
+2020-11-14 19:26:01,273 INFO c.m.d.l.SLF4JLogger [cluster-ClusterId{value='5fb05979194e32567b90b074', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=11025026}
+2020-11-14 19:26:02,040 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-14 19:26:02,200 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2020-11-14 19:26:02,232 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-14 19:26:02,512 INFO o.s.b.StartupInfoLogger [main] Started ApiservicesApplication in 4.404 seconds (JVM running for 5.816)
+2020-11-14 19:26:12,849 INFO o.a.j.l.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-14 19:26:12,850 INFO o.s.w.s.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-11-14 19:26:12,854 INFO o.s.w.s.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 4 ms
+2020-11-14 20:02:27,042 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(45)-127.0.0.1] Application shutdown requested.
+2020-11-14 20:02:27,113 INFO o.s.s.c.ExecutorConfigurationSupport [RMI TCP Connection(45)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
