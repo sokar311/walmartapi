@@ -48,35 +48,35 @@ class ApiservicesApplicationTests {
 
 	@Test
 	void checkPalindromeTest() throws Exception {
-		logger.info("checkPalindrome test start");
+		System.out.println("checkPalindrome test start");
 		Boolean result = Utils.checkPalindrome("leoncio nuneZ");
 		if (result) {
-			logger.error("Expected false result.");
+			System.out.println("Expected false result.");
 			throw new Exception ("Expected false result.");
 		} else {
-			logger.info("leoncio nuneZ is palindrome? :" + result +" ok!");
+			System.out.println("leoncio nuneZ is palindrome? :" + result +" ok!");
 		}
 		result = Utils.checkPalindrome("Ali tomo tila");
 		if (!result) {
-			logger.error("Expected true result.");
+			System.out.println("Expected true result.");
 			throw new Exception ("Expected true result.");
 		} else {
-			logger.info("leoncio nuneZ is palindrome? :" + result +" ok!");
+			System.out.println("leoncio nuneZ is palindrome? :" + result +" ok!");
 		}
-		logger.info("checkPalindromeTest end");
+		System.out.println("checkPalindromeTest end");
 	}
 
 	@Test
 	void findByPhraseTest() throws Exception  {
-		logger.info("findByPhrase test start");
+		System.out.println("findByPhrase test start");
 		List<Product> products = services.findByPhrase("ñl");
 		if (products == null || products.size() == 0) {
-			logger.info("findByPhrase failed, no products found.");			
+			System.out.println("findByPhrase failed, no products found.");			
 			throw new Exception ("findByPhrase failed, no products found.");			
 		} else {
-			logger.info("findByPhrase success, found " + products.size() + " products.");			
+			System.out.println("findByPhrase success, found " + products.size() + " products.");			
 		}
-		logger.info("findByPhrase test end");
+		System.out.println("findByPhrase test end");
 	}
 
 }
