@@ -1,7 +1,7 @@
 # walmartapi
 API  for Walmart challenge
 
-This development was created using spring boot + swagger to provide services that allow to search products by id, brand and description.
+This development was created using spring boot + swagger to provide services that allow to search products by id, brand and description and apply 50% discount is the seach phrase is a palindrome.
 
 ### Installation
 
@@ -11,7 +11,7 @@ To initialiaze and run the container:
 $ make walmartapi-init
 ```
 
-To run the containter (if it has been previusly initialized)
+To run the containter (if it has been previously initialized)
 
 ```sh
 $ make walmartapi-start
