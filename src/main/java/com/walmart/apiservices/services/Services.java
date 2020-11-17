@@ -31,7 +31,7 @@ public class Services {
      */
     public Product findById(Integer id) {
     	Query query = new Query();
-		query.addCriteria(Criteria.where("id").is(id)); 
+		query.addCriteria(Criteria.where("id").is(id));
 		return mongoTemplate.findOne(query, Product.class);
     }
     
